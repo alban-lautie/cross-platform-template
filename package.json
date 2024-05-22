@@ -10,9 +10,11 @@
     "clean": "turbo run clean && rm -rf node_modules",
     "format": "turbo run format",
     "format:ci": "turbo run format:ci",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.0.11",
     "turbo": "latest"
   },
   "packageManager": "yarn@1.22.19",
