@@ -10,7 +10,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "format": "prettier . --write",
-    "format:ci": "prettier . --check"
+    "format:ci": "prettier . --check",
+    "lint": "eslint ."
   },
   "dependencies": {
     "expo": "^49.0.21",

@@ -9,7 +9,8 @@
     "build": "turbo run build",
     "clean": "turbo run clean && rm -rf node_modules",
     "format": "turbo run format",
-    "format:ci": "turbo run format:ci"
+    "format:ci": "turbo run format:ci",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
     "turbo": "latest"
