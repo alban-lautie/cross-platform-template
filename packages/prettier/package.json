@@ -1,0 +1,8 @@
+{
+  "name": "@repo/prettier",
+  "version": "0.0.1",
+  "main": "index.json",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}
